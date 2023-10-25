@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'StarWarsFont';
+    src: url('./TrueTypeFont/SFDistantGalaxyAlternate.ttf') format('truetype');
+}
+
+body {
+    font-family: 'StarWarsFont', sans-serif;
+    background-image: url(./EDZwOTA-star-wars-space-background.jpg);
+    font-size: 3rem;
+    color: yellow;
+    text-align: center;
+    margin: 3rem;
+}
+
+label, input, button, textarea {
+    display: block;
+    margin: 10px auto;
+}
+
+input, button, textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    resize: none;
+}
